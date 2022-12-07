@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "prettier": "prettier --write .",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.19.3",
+    "@chakra-ui/icons": "^2.0.11",
+    "@chakra-ui/react": "^2.3.5",
+    "@chakra-ui/system": "^2.2.12",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "axios": "^1.2.1",
+    "framer-motion": "^7.5.2",
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-next": "^12.3.1",
+    "prettier": "^2.7.1"
+  }
+}
