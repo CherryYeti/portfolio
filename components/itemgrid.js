@@ -17,13 +17,13 @@ const ItemGrid = () => (
       direction={{ base: 'column', md: 'row' }}
       alignItems="center"
     >
-      <Box w={{ md: '10%' }} mb={8}>
+      <Box w={{ lg: '10%' }} mb={8}>
         <a target="_blank" href="https://www.javascript.com/" rel="noreferrer">
           <SiJavascript size={80} color="#F0DB4F" />
         </a>
       </Box>
       <Spacer />
-      <Box w={{ md: '10%' }} mb={8}>
+      <Box w={{ lg: '10%' }}mb={8}>
         <a
           target="_blank"
           href="https://www.typescriptlang.org/"
@@ -33,13 +33,13 @@ const ItemGrid = () => (
         </a>
       </Box>
       <Spacer />
-      <Box w={{ md: '10%' }} mb={8} alignItems="center">
+      <Box w={{ lg: '10%' }} mb={8} alignItems="center">
         <a target="_blank" href="https://www.nodejs.org/" rel="noreferrer">
           <SiNodedotjs size={80} color="#3C873A" />
         </a>
       </Box>
       <Spacer />
-      <Box w={{ md: '10%' }} mb={8}>
+      <Box w={{ lg: '10%' }} mb={8}>
         <a
           target="_blank"
           href="https://www.w3schools.com/html/"
@@ -49,7 +49,7 @@ const ItemGrid = () => (
         </a>
       </Box>
       <Spacer />
-      <Box w={{ md: '10%' }} mb={8}>
+      <Box w={{ lg: '10%' }} mb={8}>
         <a
           target="_blank"
           href="https://www.w3schools.com/css/"
@@ -59,19 +59,19 @@ const ItemGrid = () => (
         </a>
       </Box>
       <Spacer />
-      <Box w={{ md: '10%' }} mb={8}>
+      <Box w={{ lg: '10%' }} mb={8}>
         <a target="_blank" href="https://www.nextjs.org/" rel="noreferrer">
           <SiNextdotjs size={80} />
         </a>
       </Box>
       <Spacer />
-      <Box w={{ md: '10%' }} mb={8}>
+      <Box w={{ lg: '10%' }} mb={8}>
         <a target="_blank" href="https://www.reactjs.org/" rel="noreferrer">
           <SiReact size={80} color="#61dbfb" />
         </a>
       </Box>
       <Spacer />
-      <Box w={{ md: '10%' }} mb={8}>
+      <Box w={{ lg: '10%' }} mb={8}>
         <a target="_blank" href="https://www.python.org/" rel="noreferrer">
           <SiPython size={80} />
         </a>
